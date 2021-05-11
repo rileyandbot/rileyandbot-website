@@ -1,0 +1,61 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+    padding:0px;
+}
+.fullscreen-bg {
+    display: block;
+    margin:auto;
+    overflow: hidden;
+    z-index: -100;
+    height:655px;
+    width:912px;
+    text-decoration: none;
+    border: none;
+}
+.fullscreen-bg__video {
+    width: 914px;
+    height: 655px;
+}
+.rbmainbkg{
+    display: block;
+    width:100%;
+    height:655px;
+    background-color:#66c7d6;
+}
+.rbmobileimage{
+    display: none;
+}
+/* -----------------------------------------------------*/
+/*Responsive*/
+/* -----------------------------------------------------*/
+@media (max-width: 913px) {
+.rbmobileimage{
+    display: block;
+    width:100%;
+    height:auto;
+}
+.fullscreen-bg {
+    display: none;
+}
+.rbmainbkg{
+    display: block;
+    width:100%;
+    height:auto;
+    background-color:#4fbfd7;
+}
+.fullscreen-bg__video {
+    display: none;
+    }
+}
