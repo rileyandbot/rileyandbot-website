@@ -10,9 +10,10 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-body{
+body {
     margin:0px;
     padding:0px;
+    background-color:#66c7d6;
 }
 .fullscreen-bg {
     display: block;
@@ -28,15 +29,23 @@ body{
     width: 914px;
     height: 655px;
 }
-.rbmainbkg{
+.rbmainbkg {
     display: block;
     width:100%;
     height:655px;
     background-color:#66c7d6;
 }
-.rbmobileimage{
+.rbmobileimage {
     display: none;
 }
+.rbmain-text {
+    font-family: 'Pangolin', cursive;
+    font-size: 18pt;
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 /* -----------------------------------------------------*/
 /*Responsive*/
 /* -----------------------------------------------------*/
@@ -49,7 +58,7 @@ body{
 .fullscreen-bg {
     display: none;
 }
-.rbmainbkg{
+.rbmainbkg {
     display: block;
     width:100%;
     height:auto;
