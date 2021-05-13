@@ -47,7 +47,17 @@ body {
 }
 
 /* -----------------------------------------------------*/
-/*Responsive*/
+/* Mail Chimp */
+/* -----------------------------------------------------*/
+#mc_embed_signup {
+    background-color:#66c7d6;
+    clear:left;
+    font:18px Helvetica,Arial,sans-serif;
+    width:100%;
+}
+
+/* -----------------------------------------------------*/
+/* Responsive */
 /* -----------------------------------------------------*/
 @media (max-width: 913px) {
 .rbmobileimage{
